@@ -48,6 +48,7 @@ Prestop Hook
 `terminationGracePeriodSeconds` 시간 에 포함되기에 오래 잡으면 앱이 정리할 시간이 그만큼 줄어듦
 실행 방식은은 exec, httpGet
 
+```
 [Pod 생성]
    ↓
 Init Container 1 실행 → 완료
@@ -73,3 +74,5 @@ grace period 대기 (기본 30초)
 SIGKILL (안 죽었으면)
    ↓
 [Pod 삭제]
+```
+
